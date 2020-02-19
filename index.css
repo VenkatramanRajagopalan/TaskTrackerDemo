@@ -1,0 +1,64 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    height: 54px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    background-color: #458990;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    top: 0;
+}
+
+.header > .h-title {
+    color: white;
+}
+
+.h-btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    padding: 8px 12px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    color: white;
+}
+
+.boards-container {
+    position: relative;
+    margin-top: 54px;
+    padding: 16px;
+    display: flex;
+}
+
+.board {
+    padding: 12px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    max-width: 250px;
+    height: fit-content;
+    flex-basis: 300px;
+    margin: 12px;
+}
+
+.board .board-title {
+    color: #458990;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.board .board-btn {
+    background-color: #fff;
+    border: 1px solid #458990;
+    padding: 8px 12px;
+    color: #458990;
+}
+
+ul {
+    list-style-type: none;
+}
